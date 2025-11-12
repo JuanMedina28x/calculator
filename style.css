@@ -1,0 +1,50 @@
+#button-container{
+    display: flex;
+    flex-flow:column;
+    flex-basis: content;
+    width: fit-content;
+    border: 10px solid gray;
+    background-color: gray;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    font-size: 30px;
+    background-color: #211E1C;
+    color:  white;
+}
+
+#text-area {
+
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 10px solid gray;
+    font-size: 25px;
+    background-color: white;
+}
+
+
+#top-buttons{
+    display: flex;
+}
+
+#clear{
+    height: 25px;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+#equal{
+
+    height: 25px;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 0px
+
+}
+
